@@ -1,0 +1,70 @@
+
+
+.animacion-planes h2 {
+    float: left;
+    color: #fff;
+    position: relative;
+  }
+
+  .animacion-planes h2 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #000;
+    border-left: 1px solid #000;
+    animation: maquina 4s  alternate steps(300);
+  }
+  @keyframes maquina {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .animacion-planes h3 {
+    float: left;
+    color: #fff;
+    position: relative;
+  }
+
+  .animacion-planes h3 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #3E484D;
+    border-left: 1px solid #000;
+    animation: maquina 3.5s infinite alternate steps(300);
+  }
+  @keyframes maquina {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+
+  .animacion-planes-acerca h3{
+    float: left;
+    color: #000;
+    position: relative;
+  }
+
+  .animacion-planes-acerca h3 span{
+position: absolute;
+    right: 0;
+    width: 0;
+    background: #3E484D;
+    border-left: 1px solid #3E484D;
+    animation: maquina 3s  alternate steps(300);
+  }
+  @keyframes maquina {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }

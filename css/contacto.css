@@ -1,0 +1,20 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+
+  body{
+    background-color:#3E484D;
+  	font-family: 'Poppins', sans-serif;
+	  font-weight: 300;
+  }
+
+  .contacto{
+    text-align: center;
+  }
+
+  .contacto h2,h3{
+    color: #fff;
+  }
+
+  .contacto h2:hover{
+    color: #fff;
+    text-decoration: underline;
+  }
